@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agence Express</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+
+            <!--AGBODENOU KOMLANVI ISRAËL REFERENT DIGITALE-->
+
+        <header>
+            <h1>Agence Express</h1>
+            <p>Envoyer vos colis partout dans le monde en toute securité</p>
+        </header>
+        <!--En têtê du site-->
+        <section class="hero">
+            <h2>Expédiez facilement vos colis</h2>
+            <p>Service rapide, fiable et abordable pour tous vos envois internationaux</p>
+        </section>
+
+            <section class="form-container">
+                <h3>Formulaire d'envoi</h3>
+                <form>
+                    <!--Debut du formulaire-->
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" name="email" required>
+                     
+                    <label for="tel">Numero de téléphone</label>
+                    <input type="tel" id="tel" name="tel" required>
+                     
+                    <label for="pays">Pays de destination</label>
+
+                    <select id="pays" name="pays" required>
+                        <option value="">-- Selectionez un pays</option>
+                        <option value="France">France</option>
+                        <option value="USA">Etats-Unis</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Sénégale">Sénégale</option>
+                    </select>
+
+                    <label for="colis">Description du colis</label>
+
+                    <textarea id="colis" name="colis" rows="4" placeholder="Taille, poids, contenu..." required></textarea>
+
+                    <button type="submit">Envoyer la Demande</button>
+                    <!--Fin du formulaire-->
+                </form>
+            </section>
+
+            <footer>
+                <!--Pieds de page-->
+                <p>&copy; 2025 Agence Express - Tous droits réservés</p>
+            </footer>
+    </body>
+</html>

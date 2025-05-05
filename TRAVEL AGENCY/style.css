@@ -1,0 +1,98 @@
+.button-1{
+    background-image: url("original.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 580px;
+
+}
+.button-1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0px 40px 0px;
+    margin-bottom: 10%;
+}
+h1{
+    color: #444;
+   
+}
+#par{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(255, 136, 0) ;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+
+   
+}
+.orange{
+    color: orange;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.class1, .class2{
+    margin-left: 66%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0%;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    
+
+ }
+ .navigateur{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ #bmf{
+    font-size: 2em;
+    
+ }
+ ul{
+    display: flex;
+    list-style-type: none;
+ }
+ ul,li{
+    margin: 0 25px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .nav{
+    padding: 0px;
+ }
+ body{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+ }
+ #br{
+    margin-bottom: 10%;
+    font-size: 370%;
+ }
+ .image{
+    text-align: left;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    line-height: 150%;
+    background: red;
+   
+    
+ }
+ #mm{
+    background: white;
+ }
